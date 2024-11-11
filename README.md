@@ -65,7 +65,9 @@ JavaScript (ES6) : Pour ajouter des fonctionnalités interactives (animations, f
 
 ## Clonez le dépôt :
 
+```bash
 git clone https://github.com/guiback0/FitForAll.git
+```
 Ouvrez le fichier index.html dans votre navigateur.
 &nbsp;
 

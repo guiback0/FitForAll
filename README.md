@@ -22,6 +22,7 @@ Bienvenue sur le projet FitForAll, un site web conçu pour promouvoir une salle 
 ```plaintext
 FitForAll/
 │
+├── signup.html # Page d'inscription
 ├── index.html # Page d'accueil
 ├── price.html # Page des tarifs et conditions générales de vente
 ├── coachs.html # Page de présentation des coachs

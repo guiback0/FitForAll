@@ -34,3 +34,21 @@ a {
    text-decoration: none;
    white-space: nowrap;
 }
+
+button {
+    padding: 0.75rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    white-space: nowrap;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ 
+ button:hover {
+    background-color: var(--primary-color-dark);
+ }
+ 

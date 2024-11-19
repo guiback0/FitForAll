@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+:root {
+   --primary-color: #f92524;
+   --primary-color-dark: #e91a1a;
+   --secondary-color: #faf9fe;
+   --text-dark: #0f172a;
+   --text-light: #64748b;
+   --white: #ffffff;
+   --max-width: 1200px;
+}
+
+html,
+body {
+   scroll-behavior: smooth;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Poppins", sans-serif;
+}
+
+img {
+   display: flex;
+   width: 100%;
+}
+
+a {
+   text-decoration: none;
+   white-space: nowrap;
+}
+
+button {
+   padding: 0.75rem 1.5rem;
+   outline: none;
+   border: none;
+   font-size: 1rem;
+   white-space: nowrap;
+   color: var(--white);
+   background-color: var(--primary-color);
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+button:hover {
+   background-color: var(--primary-color-dark);
+}
+
+header {
+   background-color: var(--secondary-color);
+   position: fixed;
+   isolation: isolate;
+   width: 100%;
+   z-index: 9;
+}
+
+.logo__title {
+   padding: 1rem;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: var(--secondary-color);
+}
+
+.logo__title a {
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   font-size: 1rem;
+   font-weight: 600;
+   color: var(--text-dark);
+}
+
+h1 span.alt-font {
+   font-family: "Permanent Marker", cursive, sans-serif;
+   font-size: 3rem; 
+   color: var(--primary-color);
+}
+
+ .navbar {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+ }
+
+ .logo__title a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+ }
+
+.nav__links {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--secondary-color);
+    transition: 0.5s;
+    z-index: -1;
+    transform: translateY(-100%);
+ }
+
+ .nav__links.open {
+    transform: translateY(0);
+ }
+
+ .link a {
+    color: var(--text-dark);
+    transition: 0.3s;
+ }
+ 
+ .link a:hover {
+    color: var(--primary-color);
+ }
+
+ .nav__menu__btn {
+   font-size: 1.5rem;
+   color: var(--text-dark);
+}

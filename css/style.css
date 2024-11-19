@@ -55,11 +55,8 @@ button:hover {
    background-color: var(--primary-color-dark);
 }
 
-.header {
+header {
    background-color: var(--secondary-color);
-}
-
-nav {
    position: fixed;
    isolation: isolate;
    width: 100%;
@@ -88,4 +85,58 @@ h1 span.alt-font {
    font-family: "Permanent Marker", cursive, sans-serif;
    font-size: 3rem; 
    color: var(--primary-color);
+}
+
+ .navbar {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+ }
+
+ .logo__title a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+ }
+
+.nav__links {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--secondary-color);
+    transition: 0.5s;
+    z-index: -1;
+    transform: translateY(-100%);
+ }
+
+ .nav__links.open {
+    transform: translateY(0);
+ }
+
+ .link a {
+    color: var(--text-dark);
+    transition: 0.3s;
+ }
+ 
+ .link a:hover {
+    color: var(--primary-color);
+ }
+
+ .nav__menu__btn {
+   font-size: 1.5rem;
+   color: var(--text-dark);
 }

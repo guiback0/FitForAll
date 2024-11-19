@@ -84,7 +84,7 @@ nav {
    color: var(--text-dark);
 }
 
-.alt-font {
+h1 span.alt-font {
    font-family: "Permanent Marker", cursive, sans-serif;
    font-size: 3rem; 
    color: var(--primary-color);

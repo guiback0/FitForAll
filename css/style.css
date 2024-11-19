@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;500;600;700&display=swap');
+
+
 
 :root {
    --primary-color: #f92524;
@@ -36,19 +39,53 @@ a {
 }
 
 button {
-    padding: 0.75rem 1.5rem;
-    outline: none;
-    border: none;
-    font-size: 1rem;
-    white-space: nowrap;
-    color: var(--white);
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
- }
- 
- button:hover {
-    background-color: var(--primary-color-dark);
- }
- 
+   padding: 0.75rem 1.5rem;
+   outline: none;
+   border: none;
+   font-size: 1rem;
+   white-space: nowrap;
+   color: var(--white);
+   background-color: var(--primary-color);
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+button:hover {
+   background-color: var(--primary-color-dark);
+}
+
+.header {
+   background-color: var(--secondary-color);
+}
+
+nav {
+   position: fixed;
+   isolation: isolate;
+   width: 100%;
+   z-index: 9;
+}
+
+.logo__title {
+   padding: 1rem;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: var(--secondary-color);
+}
+
+.logo__title a {
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   font-size: 1rem;
+   font-weight: 600;
+   color: var(--text-dark);
+}
+
+.alt-font {
+   font-family: "Permanent Marker", cursive, sans-serif;
+   font-size: 3rem; 
+   color: var(--primary-color);
+}

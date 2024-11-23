@@ -92,7 +92,7 @@ h1 span.alt-font {
    align-items: center;
    justify-content: space-between;
    background-color: var(--secondary-color);
-   z-index: 1;
+
 }
 
 .logo__title a {

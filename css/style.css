@@ -60,9 +60,15 @@ button:hover {
 header {
    background-color: var(--secondary-color);
    isolation: isolate;
+   position: fixed;
    width: 100%;
    z-index: 9;
    display: flex;
+}
+
+.header__content{
+   display: flex;
+   width: 100%;
 }
 
 .logo__title {
@@ -92,9 +98,8 @@ h1 span.alt-font {
    width: 100%;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: flex-end;
    background-color: var(--secondary-color);
-
 }
 
 .logo__title a {
@@ -121,7 +126,7 @@ h1 span.alt-font {
    background-color: var(--secondary-color);
    transition: 0.5s;
    z-index: -1;
-   transform: translateY(-100%);
+   transform: translateY(-500%);
 }
 
 .nav__links.open {
@@ -140,4 +145,64 @@ h1 span.alt-font {
 .nav__menu__btn {
    font-size: 1.5rem;
    color: var(--text-dark);
+}
+
+.section__container {
+   max-width: var(--max-width);
+   margin: auto;
+   padding: 2rem 2rem;
+}
+
+.section__title {
+   position: relative;
+   padding-bottom: 0.5rem;
+   margin-bottom: 1rem;
+   font-size: 2.25rem;
+   font-weight: 600;
+   color: var(--text-dark);
+}
+
+.section__title::after {
+   position: absolute;
+   content: "";
+   left: 0;
+   bottom: 0;
+   width: 50px;
+   height: 3px;
+   background-color: var(--primary-color);
+}
+
+.section__description {
+   max-width: 900px;
+   color: var(--text-light);
+}
+
+
+.home__container {
+   display: grid;
+   gap: 2rem;
+   padding-top: 10rem;
+   width: 100%;
+}
+
+.home__image img {
+   max-width: 500px;
+   margin: auto;
+
+}
+
+.home__content span {
+   font-size: 2rem;
+   font-weight: 400;
+   color: var(--text-dark);
+}
+
+.home__content .section__title {
+   font-size: 3rem;
+   font-weight: 700;
+}
+
+.home__content p {
+   margin-bottom: 2rem;
+   color: var(--text-light);
 }

@@ -1,8 +1,14 @@
 @media (width > 768px) {
+.header__content {
+  max-width: var(--max-width);
+  display: flex;
+  width: 200rem;
+  margin-inline: auto;
+}
+
    nav {
       position: static;
       padding: 2rem 1rem;
-      max-width: var(--max-width);
       margin-inline: auto;
       display: flex;
       align-items: center;
@@ -26,4 +32,16 @@
       background-color: transparent;
       transform: none;
    }
+
+   .home__container {
+    padding-block: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-top: 10rem;
+  }
+
+  .home__content {
+    padding-block: 5rem;
+    grid-area: 1/1/2/2;
+  }
 }

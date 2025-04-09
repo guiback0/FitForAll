@@ -258,3 +258,74 @@ h1 span.alt-font {
 .about__card p {
    color: var(--text-light);
 }
+
+.footer {
+   background-color: var(--secondary-color);
+}
+
+.footer__container {
+   display: grid;
+   gap: 2rem;
+}
+
+.footer__logo a {
+   margin-bottom: 1.5rem;
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: var(--text-dark);
+}
+
+.footer__logo img {
+   max-width: 40px;
+}
+
+.footer__col p {
+   margin-bottom: 2rem;
+   color: var(--text-light);
+}
+
+.footer__socials {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.footer__socials a {
+   padding: 5px 10px;
+   font-size: 1.2rem;
+   color: var(--text-light);
+   border-radius: 100%;
+   border: 1px solid var(--text-light);
+}
+
+.footer__socials a:hover {
+   color: var(--primary-color);
+   border-color: var(--primary-color);
+}
+
+.footer__col h4 {
+   margin-bottom: 1.5rem;
+   font-size: 1.2rem;
+   font-weight: 500;
+   color: var(--text-dark);
+ }
+ 
+ .footer__links a {
+   display: block;
+   margin-bottom: 1rem;
+   color: var(--text-light);
+ }
+ 
+ .footer__links a:hover {
+   color: var(--primary-color);
+ }
+ 
+ .footer__bar {
+   padding: 1rem;
+   font-size: 0.8rem;
+   color: var(--text-light);
+   text-align: center;
+ }

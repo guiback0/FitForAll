@@ -1,3 +1,29 @@
+@media (width > 480px) {
+  .class__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+  }
+
+  .trainer__grid {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .trainer__card:nth-child(3) {
+    grid-area: 2/2/3/3;
+  }
+
+  .price__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+  }
+
+  .footer__container {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+
 @media (width > 768px) {
    .header__content {
       max-width: var(--max-width);
@@ -59,6 +85,14 @@
 
  .about__grid {
   grid-column: span 2;
+}
+
+.footer__container {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.footer__col:first-child {
+  grid-column: 1/3;
 }
 }
 

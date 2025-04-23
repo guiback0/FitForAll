@@ -60,7 +60,8 @@
             accueillir toutes les personnes, avec un environnement adapté et inclusif.
         </p>
         <div class="section__btn">
-            <button class="nav__toggle" aria-label="Cliquez sur ce bouton et inscrivez-vous!">Inscrivez-vous</button>
+            <a href="#signup" class="nav__toggle"
+                aria-label="Cliquez sur ce bouton et inscrivez-vous!">Inscrivez-vous</a>
         </div>
     </div>
 </section>
@@ -119,8 +120,8 @@
         </div>
     </div>
 </section>
-<section class="home__container section__container" id="price">
-    <div class="home__image">
+<section class="price__container section__container" id="price">
+    <div class="price__table">
         <table class="pricing-table">
             <caption class="sr-only">Nos tarifs d'abonnement</caption>
             <thead>
@@ -154,7 +155,7 @@
             </tbody>
         </table>
     </div>
-    <div class="home__content">
+    <div class="price__content">
         <span>Tarifs</span>
         <h2 class="section__title">Des prix abordables</h2>
         <p class="section__description">
@@ -165,7 +166,7 @@
     </div>
 </section>
 
-<!-- Add this section before the footer -->
+
 <section class="section__container subscribe__container" id="signup">
     <div class="subscribe__content">
         <h2 class="section__title">Rejoignez-nous dès aujourd'hui</h2>
@@ -217,9 +218,9 @@
                 </a>
             </div>
             <div class="footer__socials">
-                <a href="#"><i class="ri-facebook-fill"></i></a>
-                <a href="#"><i class="ri-instagram-line"></i></a>
-                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="index.html"><i class="ri-facebook-fill"></i></a>
+                <a href="index.html"><i class="ri-instagram-line"></i></a>
+                <a href="index.html"><i class="ri-twitter-fill"></i></a>
             </div>
         </div>
         <div class="footer__col">
@@ -245,8 +246,7 @@
             <h3>Information</h3>
             <div class="footer__links">
                 <ul>
-                    <li><a href="price.html">Tarifs & CGV</a></li>
-                    <li><a href="coachs.html">Coachs</a></li>
+                    <li><a href="#price">Tarifs & CGV</a></li>
                 </ul>
             </div>
         </div>
@@ -254,8 +254,13 @@
             <h3>Horaires d'ouverture</h3>
             <div class="footer__links">
                 <ul>
-                    <li><i class="ri-time-line"></i> Lundi - Samedi : 06h00 - 22h00</li>
-                    <li><i class="ri-time-line"></i> Dimanche : 08h00 - 18h00</li>
+
+                    <li>
+                        <p>Lundi - Samedi : 06h00 - 22h00 <i class="ri-time-line"></i></p>
+                    </li>
+                    <li>
+                        <p>Dimanche : 08h00 - 18h00 <i class="ri-time-line"></i></p>
+                    </li>
                 </ul>
             </div>
         </div>

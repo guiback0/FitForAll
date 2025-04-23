@@ -23,193 +23,11 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
-<header class="header">
-    <div class="header__content">
-        <div class="logo__title">
-            <a href="index.html">
-                <h1>
-                    <span class="alt-font">F</span>it<span class="alt-font">F</span>or<span class="alt-font">A</span>ll
-                </h1>
-            </a>
-        </div>
-        <nav class="navbar" aria-label="Navigation principale">
-            <div class="nav__menu__btn" id="menu-btn">
-                <span class="burger__btn">Menu<i class="ri-menu-line"></i></span>
-            </div>
-            <ul class="nav__links" id="nav-links">
-                <li class="link"><a href="#about">À Propos</a></li>
-                <li class="link"><a href="#price">Tarifs</a></li>
-                <li class="link"><a href="#signup" class="btn-signup">Inscription</a></li>
-            </ul>
-        </nav>
-    </div>
 
-</header>
-
-<section class="home__container section__container" id="home">
-    <div class="home__image">
-        <img src="assets/2.webp"
-            alt="Une personne en fauteuil roulant effectuant des exercices de musculation avec des haltères.">
-    </div>
-    <div class="home__content">
-        <span>Bienvenue chez FitForAll</span>
-        <h2 class="section__title">La salle de sport pour tous !</h2>
-        <p class="section__description">
-            Chez FitForAll, nous croyons que le sport est un droit pour tous, quel que soit votre âge, votre niveau
-            de condition physique ou votre situation de handicap. Notre salle est spécialement conçue pour
-            accueillir toutes les personnes, avec un environnement adapté et inclusif.
-        </p>
-        <div class="section__btn">
-            <a href="#signup" class="nav__toggle"
-                aria-label="Cliquez sur ce bouton et inscrivez-vous!">Inscrivez-vous</a>
-        </div>
-    </div>
-</section>
-
-<section class="section__container about__container" id="about">
-    <div class="about__image">
-        <img src="assets/3.jpg" alt="about" />
-    </div>
-    <div class="about__content">
-        <h2 class="section__title">Pourquoi nous choisir ?</h2>
-        <p class="section__description">
-            Parce que votre bien-être est notre priorité. Chez FitForAll, nous croyons que le sport doit être accessible
-            à tous, sans compromis. Que vous soyez débutant ou athlète confirmé, notre mission est de vous offrir un
-            environnement sécurisé, stimulant et inclusif, où chacun peut progresser à son rythme. Nous sommes
-            déterminés à vous aider à atteindre vos objectifs, quels qu'ils soient.
-        </p>
-    </div>
-    <div class="about__grid">
-        <div class="about__card">
-            <span><i class="ri-wheelchair-line"></i></span>
-            <div>
-                <h3>Accessibilité totale </h3>
-                <p>
-                    Notre salle est entièrement adaptée aux Personnes à Mobilité Réduite (PMR).
-                </p>
-            </div>
-        </div>
-        <div class="about__card">
-            <span><i class="ri-weight-line"></i></span>
-            <div>
-                <h3>Équipements variés</h3>
-                <p>
-                    Haltères de 1 à 50 kilos et machines pouvant supporter jusqu’à 400 kilos, pour s'adapter à
-                    toutes les pratiques.
-                </p>
-            </div>
-        </div>
-        <div class="about__card">
-            <span><i class="ri-p2p-line"></i></span>
-            <div>
-                <h3>Coachs certifiés</h3>
-                <p>
-                    Un accompagnement sur mesure par une équipe de professionnels, certains eux-mêmes en situation
-                    de handicap.
-                </p>
-            </div>
-        </div>
-        <div class="about__card">
-            <span><i class="ri-open-arm-line"></i></span>
-            <div>
-                <h3>Ambiance conviviale et motivante</h3>
-                <p>
-                    Rejoignez une communauté qui vous soutient dans chaque étape de votre parcours sportif.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="price__container section__container" id="price">
-    <div class="price__table">
-        <table class="pricing-table">
-            <caption class="sr-only">Nos tarifs d'abonnement</caption>
-            <thead>
-                <tr>
-                    <th scope="col">Formule</th>
-                    <th scope="col">Description</th>
-                    <th scope="col">Prix</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Basic</th>
-                    <td>Accès journée (8h-20h)</td>
-                    <td>25€/mois</td>
-                </tr>
-                <tr>
-                    <th scope="row">Premium</th>
-                    <td>Accès 24/7 + cours</td>
-                    <td>35€/mois</td>
-                </tr>
-                <tr>
-                    <th scope="row">Réduit</th>
-                    <td>Étudiants/seniors</td>
-                    <td>20€/mois</td>
-                </tr>
-                <tr>
-                    <th scope="row">Handi-pass</th>
-                    <td>Accès adapté</td>
-                    <td>20€/mois</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="price__content">
-        <span>Tarifs</span>
-        <h2 class="section__title">Des prix abordables</h2>
-        <p class="section__description">
-            Découvrez nos tarifs adaptés à tous les budgets dans le tableau ci-dessous. Chez FitForAll, l'accès au sport
-            doit être accessible à tous, c'est pourquoi nous proposons des formules flexibles et inclusives.
-        </p>
-
-    </div>
-</section>
-
-
-<section class="section__container subscribe__container" id="signup">
-    <div class="subscribe__content">
-        <h2 class="section__title">Rejoignez-nous dès aujourd'hui</h2>
-        <p class="section__description">
-            Inscrivez-vous pour recevoir nos offres spéciales et rester informé des dernières actualités de FitForAll.
-        </p>
-    </div>
-    <form class="subscribe__form" action="#" method="post">
-        <div class="form__group">
-            <label for="name">Nom complet</label>
-            <input type="text" id="name" name="name" placeholder="Votre nom" required>
-        </div>
-        <div class="form__group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Votre email" required>
-        </div>
-        <div class="form__group">
-            <label for="phone">Téléphone</label>
-            <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone">
-        </div>
-        <div class="form__group">
-            <label for="membership">Formule d'abonnement</label>
-            <select id="membership" name="membership" required>
-                <option value="" disabled selected>Choisissez une formule</option>
-                <option value="basic">Basic - 25€/mois</option>
-                <option value="premium">Premium - 35€/mois</option>
-                <option value="reduced">Réduit - 20€/mois</option>
-                <option value="handipass">Handi-pass - 20€/mois</option>
-            </select>
-        </div>
-        <div class="form__group checkbox__group">
-            <input type="checkbox" id="terms" name="terms" required>
-            <label for="terms">J'accepte les conditions générales d'utilisation</label>
-        </div>
-        <button type="submit" class="subscribe__btn">S'inscrire maintenant</button>
-    </form>
-</section>
-
-
-<footer class="footer">
-    <div class="section__container footer__container">
-        <div class="footer__col">
-            <div class="footer__logo">
+<body>
+    <header class="header">
+        <div class="header__content">
+            <div class="logo__title">
                 <a href="index.html">
                     <h1>
                         <span class="alt-font">F</span>it<span class="alt-font">F</span>or<span
@@ -217,60 +35,248 @@
                     </h1>
                 </a>
             </div>
-            <div class="footer__socials">
-                <a href="index.html"><i class="ri-facebook-fill"></i></a>
-                <a href="index.html"><i class="ri-instagram-line"></i></a>
-                <a href="index.html"><i class="ri-twitter-fill"></i></a>
-            </div>
-        </div>
-        <div class="footer__col">
-            <h3>Contact</h3>
-            <address class="footer__links">
-                <ul>
-                    <li>
-                        <p>
-                            <i class="fa-solid fa-location-dot"></i>
-                            2 Rue des Messageries, 57000 Metz
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <i class="fa-solid fa-mobile-screen-button"></i>
-                            <a href=tel:0556677889 aria-label="Numéro de téléphone">05 56 67 78 89</a>
-                        </p>
-                    </li>
+            <nav class="navbar" aria-label="Navigation principale">
+                <div class="nav__menu__btn" id="menu-btn">
+                    <span class="burger__btn">Menu<i class="ri-menu-line"></i></span>
+                </div>
+                <ul class="nav__links" id="nav-links">
+                    <li class="link"><a href="#about">À Propos</a></li>
+                    <li class="link"><a href="#price">Tarifs</a></li>
+                    <li class="link"><a href="#signup" class="btn-signup">Inscription</a></li>
                 </ul>
-            </address>
+            </nav>
         </div>
-        <div class="footer__col">
-            <h3>Information</h3>
-            <div class="footer__links">
-                <ul>
-                    <li><a href="#price">Tarifs & CGV</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer__col">
-            <h3>Horaires d'ouverture</h3>
-            <div class="footer__links">
-                <ul>
 
-                    <li>
-                        <p>Lundi - Samedi : 06h00 - 22h00 <i class="ri-time-line"></i></p>
-                    </li>
-                    <li>
-                        <p>Dimanche : 08h00 - 18h00 <i class="ri-time-line"></i></p>
-                    </li>
-                </ul>
+    </header>
+
+    <section class="home__container section__container" id="home">
+        <div class="home__image">
+            <img src="assets/2.webp"
+                alt="Une personne en fauteuil roulant effectuant des exercices de musculation avec des haltères.">
+        </div>
+        <div class="home__content">
+            <span>Bienvenue chez FitForAll</span>
+            <h2 class="section__title">La salle de sport pour tous !</h2>
+            <p class="section__description">
+                Chez FitForAll, nous croyons que le sport est un droit pour tous, quel que soit votre âge, votre niveau
+                de condition physique ou votre situation de handicap. Notre salle est spécialement conçue pour
+                accueillir toutes les personnes, avec un environnement adapté et inclusif.
+            </p>
+            <div class="section__btn">
+                <a href="#signup" class="nav__toggle"
+                    aria-label="Cliquez sur ce bouton et inscrivez-vous!">Inscrivez-vous</a>
             </div>
         </div>
-    </div>
-    <div class="footer__bar">
-        <p>&copy; 2024 FitForAll. Tous droits réservés.</p>
-    </div>
-</footer>
+    </section>
 
-<body>
+    <section class="section__container about__container" id="about">
+        <div class="about__image">
+            <img src="assets/3.jpg" alt="about" />
+        </div>
+        <div class="about__content">
+            <h2 class="section__title">Pourquoi nous choisir ?</h2>
+            <p class="section__description">
+                Parce que votre bien-être est notre priorité. Chez FitForAll, nous croyons que le sport doit être
+                accessible
+                à tous, sans compromis. Que vous soyez débutant ou athlète confirmé, notre mission est de vous offrir un
+                environnement sécurisé, stimulant et inclusif, où chacun peut progresser à son rythme. Nous sommes
+                déterminés à vous aider à atteindre vos objectifs, quels qu'ils soient.
+            </p>
+        </div>
+        <div class="about__grid">
+            <div class="about__card">
+                <span><i class="ri-wheelchair-line"></i></span>
+                <div>
+                    <h3>Accessibilité totale </h3>
+                    <p>
+                        Notre salle est entièrement adaptée aux Personnes à Mobilité Réduite (PMR).
+                    </p>
+                </div>
+            </div>
+            <div class="about__card">
+                <span><i class="ri-weight-line"></i></span>
+                <div>
+                    <h3>Équipements variés</h3>
+                    <p>
+                        Haltères de 1 à 50 kilos et machines pouvant supporter jusqu’à 400 kilos, pour s'adapter à
+                        toutes les pratiques.
+                    </p>
+                </div>
+            </div>
+            <div class="about__card">
+                <span><i class="ri-p2p-line"></i></span>
+                <div>
+                    <h3>Coachs certifiés</h3>
+                    <p>
+                        Un accompagnement sur mesure par une équipe de professionnels, certains eux-mêmes en situation
+                        de handicap.
+                    </p>
+                </div>
+            </div>
+            <div class="about__card">
+                <span><i class="ri-open-arm-line"></i></span>
+                <div>
+                    <h3>Ambiance conviviale et motivante</h3>
+                    <p>
+                        Rejoignez une communauté qui vous soutient dans chaque étape de votre parcours sportif.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="price__container section__container" id="price">
+        <div class="price__table">
+            <table class="pricing-table">
+                <caption class="sr-only">Nos tarifs d'abonnement</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Formule</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Prix</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Basic</th>
+                        <td>Accès journée (8h-20h)</td>
+                        <td>25€/mois</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Premium</th>
+                        <td>Accès 24/7 + cours</td>
+                        <td>35€/mois</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Réduit</th>
+                        <td>Étudiants/seniors</td>
+                        <td>20€/mois</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Handi-pass</th>
+                        <td>Accès adapté</td>
+                        <td>20€/mois</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="price__content">
+            <span>Tarifs</span>
+            <h2 class="section__title">Des prix abordables</h2>
+            <p class="section__description">
+                Découvrez nos tarifs adaptés à tous les budgets dans le tableau ci-dessous. Chez FitForAll, l'accès au
+                sport
+                doit être accessible à tous, c'est pourquoi nous proposons des formules flexibles et inclusives.
+            </p>
+
+        </div>
+    </section>
+
+
+    <section class="section__container subscribe__container" id="signup">
+        <div class="subscribe__content">
+            <h2 class="section__title">Rejoignez-nous dès aujourd'hui</h2>
+            <p class="section__description">
+                Inscrivez-vous pour recevoir nos offres spéciales et rester informé des dernières actualités de
+                FitForAll.
+            </p>
+        </div>
+        <form class="subscribe__form" action="#" method="post">
+            <div class="form__group">
+                <label for="name">Nom complet</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            </div>
+            <div class="form__group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+            </div>
+            <div class="form__group">
+                <label for="phone">Téléphone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone">
+            </div>
+            <div class="form__group">
+                <label for="membership">Formule d'abonnement</label>
+                <select id="membership" name="membership" required>
+                    <option value="" disabled selected>Choisissez une formule</option>
+                    <option value="basic">Basic - 25€/mois</option>
+                    <option value="premium">Premium - 35€/mois</option>
+                    <option value="reduced">Réduit - 20€/mois</option>
+                    <option value="handipass">Handi-pass - 20€/mois</option>
+                </select>
+            </div>
+            <div class="form__group checkbox__group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">J'accepte les conditions générales d'utilisation</label>
+            </div>
+            <button type="submit" class="subscribe__btn">S'inscrire maintenant</button>
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <a href="index.html">
+                        <h1>
+                            <span class="alt-font">F</span>it<span class="alt-font">F</span>or<span
+                                class="alt-font">A</span>ll
+                        </h1>
+                    </a>
+                </div>
+                <div class="footer__socials">
+                    <a href="index.html"><i class="ri-facebook-fill"></i></a>
+                    <a href="index.html"><i class="ri-instagram-line"></i></a>
+                    <a href="index.html"><i class="ri-twitter-fill"></i></a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h3>Contact</h3>
+                <address class="footer__links">
+                    <ul>
+                        <li>
+                            <p>
+                                <i class="fa-solid fa-location-dot"></i>
+                                2 Rue des Messageries, 57000 Metz
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                <a href=tel:0556677889 aria-label="Numéro de téléphone">05 56 67 78 89</a>
+                            </p>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer__col">
+                <h3>Information</h3>
+                <div class="footer__links">
+                    <ul>
+                        <li><a href="#price">Tarifs & CGV</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h3>Horaires d'ouverture</h3>
+                <div class="footer__links">
+                    <ul>
+
+                        <li>
+                            <p>Lundi - Samedi : 06h00 - 22h00 <i class="ri-time-line"></i></p>
+                        </li>
+                        <li>
+                            <p>Dimanche : 08h00 - 18h00 <i class="ri-time-line"></i></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            <p>&copy; 2024 FitForAll. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+
 
 </body>
 

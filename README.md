@@ -24,35 +24,28 @@ Bienvenue sur le projet FitForAll, un site web conçu pour promouvoir une salle 
 ```plaintext
 FitForAll/
 │
-├── signup.html # Page d'inscription
-├── index.html # Page d'accueil
-├── price.html # Page des tarifs et conditions générales de vente
-├── coachs.html # Page de présentation des coachs
+├── accessconfig/          # Dossier du module AccessConfig (ne pas renommer)
+│   │                      # Contient les fichiers nécessaires à l'accessibilité
+│   ├── css/               # Styles spécifiques à AccessConfig
+│   └── js/                # Scripts d'accessibilité
+│
+├── assets/                # Ressources statiques
+│   │                      # (Images)
 │
 ├── css/
-│ ├── style.css # Feuille de styles principale
-│ └── responsiv.css # Feuille de style pour les formats tablette et mobile
+│   ├── style.css          # Styles principaux - À charger EN PREMIER
+│   └── responsiv.css      # Responsive - À charger APRÈS style.css
+│                          # (Approche mobile-first recommandée)
 │
 ├── js/
-│ └── script.js # Scripts JavaScript
+│   └── app.js             # Scripts principaux
+│                          # Charger en fin de body pour performance
 │
-└── README.md # Documentation du projet
+├── index.html             # Page d'accueil
+│
+└── README.md
 ```
 
-&nbsp;
-
-&nbsp;
-
-## Description des Pages
-
-Page d'accueil (index.html)
-Présente la salle de sport, ses équipements, et ses valeurs inclusives.
-
-Page Tarifs et Conditions Générales de Vente (price.html)
-Contient un tableau des tarifs, des modes de paiement disponibles, et les conditions générales.
-
-Page Présentation des Coachs (coachs.html)
-Met en avant les coachs avec leurs spécialités, incluant des coachs en situation de handicap.
 &nbsp;
 
 &nbsp;

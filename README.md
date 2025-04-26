@@ -5,6 +5,8 @@
 Bienvenue sur le projet FitForAll, un site web conçu pour promouvoir une salle de sport accessible à tous, y compris aux personnes en situation de handicap. Ce projet est développé en ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white), ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white), et ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E).
 &nbsp;
 
+**Voir le site en ligne :** [FitForAll](https://guiback0.github.io/FitForAll/)
+
 &nbsp;
 
 ## Description
@@ -69,6 +71,7 @@ JavaScript (ES6) : Pour ajouter des fonctionnalités interactives (animations, f
 ```bash
 git clone https://github.com/guiback0/FitForAll.git
 ```
+
 Ouvrez le fichier index.html dans votre navigateur.
 &nbsp;
 

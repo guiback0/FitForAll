@@ -164,10 +164,7 @@ h1 span.alt-font {
    transition: 0.5s;
    z-index: -1;
    display: none;
-}
-
-.nav__links.open {
-   transform: translateY(0);
+   
 }
 
 /* Home Section */

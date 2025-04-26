@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-   --primary-color: #f92524;
-   --primary-color-dark: #e91a1a;
+   --primary-color: #4b0082;
+   --primary-color-light: #6a3098;
+   --primary-color-much-lighter: #d3aff1;
    --secondary-color: #faf9fe;
    --text-dark: #0f172a;
    --text-light: #64748b;
@@ -64,9 +65,9 @@ button,
 }
 
 button:hover,
-.subscribe__btn,
+.subscribe__btn:hover,
 .nav__toggle:hover {
-   background-color: var(--primary-color-dark);
+   background-color: var(--primary-color-light);
    color: var(--white);
 }
 
@@ -308,7 +309,7 @@ h1 span.alt-font {
 }
 
 .pricing-table tbody tr:hover {
-   background-color: rgba(249, 37, 36, 0.05);
+   background-color: var(--primary-color-much-lighter);
    transition: background-color 0.3s ease;
 }
 
@@ -420,7 +421,7 @@ h1 span.alt-font {
    border: 1px solid var(--text-light);
 }
 
-.footer__col h3 {
+.footer__col h2 {
    margin-bottom: 1.5rem;
    font-size: 1.2rem;
    font-weight: 500;
@@ -459,6 +460,6 @@ h1 span.alt-font {
 }
 
 #accessconfig button:hover {
-   background-color: var(--primary-color-dark);
+   background-color: var(--primary-color-light);
    color: var(--white);
 }
